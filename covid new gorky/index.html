@@ -1,0 +1,61 @@
+<html lang="en"><head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid-19 Tracker</title>
+
+
+
+
+</head>
+<body>
+
+  <header class="header">
+  
+  <a class="logo" href="index.html"><img src="logo.ico" alt=""></a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="page2.html" target="_blank">List Country</a></li>
+  </ul>
+</header>
+
+
+    <div class="wrapper">
+        <div class="content">
+            <!-- ini blank canvas buat naro pict -->
+            <div class="mainImage">
+
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" title="Covid-19 Info" target="_blank"><img class="covidFull" src="pict/covid.png" alt=""> <img class="covidHalf" src="pict/coronaHalf.png"></a>
+
+                
+
+            </div>
+            <div class="left">
+                <p id="casses">casses: <span class="cassesLabel" title="Total Cases"></span> </p>
+                <!-- nah, nanti taro <p> buat tag kasus covid per negara -->
+
+                <p id="deaths">deaths: <span class="deathsLabel" title="Total Deaths"></span> </p>
+
+                <p id="recovered">recovered: <span class="recoveredLabel" title="Total Recovered"></span> </p>
+            </div>
+            <div class="right">
+                <p>STAY</p>
+    
+                <div class="logo">       
+                    <a href="https://www.who.int/" title="World Health Organization" target="_blank"><img src="pict/who.png" alt=""></a>
+                </div>
+
+                <p>HOME</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body></html>
